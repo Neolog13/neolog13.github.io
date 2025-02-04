@@ -85,7 +85,7 @@ body {
     font-size: 24px;
     font-weight: 700;
 }
-.footer__menu-item + .footer__menu-item {
+.footer__menu-item{
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -114,7 +114,7 @@ body {
     padding-top: 250px;
     padding-bottom: 50px;
     position: absolute;
-    z-index: 5;
+    z-index: 2;
     left: 0;
     right: 0;
 }
@@ -181,7 +181,7 @@ body {
 }
 .why-we__item-title{
     margin-bottom: 30px;
-    font-style: 24px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -279,7 +279,7 @@ body {
     color: #fff;
     background-color: #151515;
     font-family: 'Inter', sans-serif;
-    font-style: 16px;
+    font-size: 16px;
     font-weight: 400;
     padding: 13px 61px;
     margin: 0 auto;
@@ -360,7 +360,7 @@ body {
 }
 .card__title {
     padding-top: 20px;
-    font-style: 24px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -422,6 +422,7 @@ body {
 @media (max-width: 860px) {
     .menu__btn {
         display: flex;
+        z-index: 5;
     }
     .menu__btn,
     .logo {
